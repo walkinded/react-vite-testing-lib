@@ -8,18 +8,18 @@
 
 **Основной стек:**
 
-- ⚡️ [Vite](https://vitejs.dev/) — сборщик и dev-сервер
-- ⚛️ [React](https://react.dev/) — UI-библиотека
-- 🔷 [TypeScript](https://www.typescriptlang.org/) — типизация
-- 🧰 [Redux Toolkit](https://redux-toolkit.js.org/) — управление состоянием
-- 🧭 [React Router DOM](https://reactrouter.com/) — маршрутизация
+- [Vite](https://vitejs.dev/) — сборщик и dev-сервер
+- [React](https://react.dev/) — UI-библиотека
+- [TypeScript](https://www.typescriptlang.org/) — типизация
+- [Redux Toolkit](https://redux-toolkit.js.org/) — управление состоянием
+- [React Router DOM](https://reactrouter.com/) — маршрутизация
 
 **Инструменты тестирования:**
 
-- 🟢 [Vitest](https://vitest.dev/) — сверхбыстрый тест-раннер (альтернатива Jest)
-- 🐙 [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) — тестирование UI
-- 🖱 [@testing-library/user-event](https://testing-library.com/docs/user-event/intro) — эмуляция реального поведения пользователя
-- 🃏 [@testing-library/jest-dom](https://github.com/testing-library/jest-dom) — дополнительные DOM-матчеры (`toBeInTheDocument` и др.)
+- [Vitest](https://vitest.dev/) — сверхбыстрый тест-раннер (альтернатива Jest)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) — тестирование UI
+- [@testing-library/user-event](https://testing-library.com/docs/user-event/intro) — эмуляция реального поведения пользователя
+- [@testing-library/jest-dom](https://github.com/testing-library/jest-dom) — дополнительные DOM-матчеры (`toBeInTheDocument` и др.)
 
 ## Что и как тестируется?
 
@@ -38,7 +38,7 @@
 - **Тестирование вызовов dispatch:** использование `vi.spyOn(store, 'dispatch')` для проверки того, что клик по кнопке отправляет правильный экшен, при этом UI продолжает работать естественным образом.
 - **Изоляция окружения:** отработка мокирования `react-redux` (через `vi.mock`), когда компонент тестируется отдельно от реального store.
 
-## 📁 Структура проекта
+## Структура проекта
 
 ```text
 src/
